@@ -20,7 +20,5 @@ function Unzip
 
 Unzip $Destination $DestinationFolder
 
-$Parms = "/COMPONENTS CONTROLLER,DESKTOPSTUDIO,DESKTOPDIRECTOR,LICENSESERVER,STOREFRONT /PASSIVE /NOREBOOT /CONFIGURE_FIREWALL /NOSQL"
-
 $Prms = $AppProj.Split(" ")
 & "$InstallerApp" $Prms
