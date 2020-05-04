@@ -3,7 +3,7 @@ $Url = 'https://github.com/koskedk/dwapi/releases/download/v2.4.x/dwapi.zip'
 $Destination= 'H:\DWAPI.Service_1_0_0_0\dwapi.zip'
 $DestinationFolder= 'H:\DWAPI.Service_1_0_0_0\'
 $InstallerApp='C:\Program Files (x86)\Caphyon\Advanced Installer 15.3\bin\x86\advinst.exe'
-$AppProj='/build H:\Update\Dwapi_22_05_2019.aip'
+$AppProj='/rebuild H:\Update\Dwapi_22_05_2019.aip'
 $AppExe='H:\Update\Dwapi_22_05_2019-SetupFiles\Dwapi_22_05_2019.exe'
 $AppExePub='C:\Dot12\dwapi\client\downloads\dwapi.exe'
 
