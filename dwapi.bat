@@ -1,1 +1,1 @@
-"C:\Program Files (x86)\Caphyon\Advanced Installer 15.3\bin\x86" AdvancedInstaller.com /build H:\Update\Dwapi_22_05_2019.aip
+"C:\Program Files (x86)\Caphyon\Advanced Installer 15.3\bin\x86\advinst.exe" /build H:\Update\Dwapi_22_05_2019.aip
