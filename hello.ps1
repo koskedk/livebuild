@@ -18,4 +18,4 @@ function Unzip
 
 Unzip $Destination $DestinationFolder
 
-Start-Process $InstallerApp $AppProj
+Start-Process dwapi.bat
