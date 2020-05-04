@@ -8,13 +8,14 @@ $AppProj='/build H:\Update\Dwapi_22_05_2019.aip'
 $client = new-object System.Net.WebClient
 $client.DownloadFile($Url,$Destination)
 
+Remove-Item 'H:\DWAPI.Service_1_0_0_0\hello\.*'
 
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 function Unzip
 {
     param([string]$zipfile, [string]$outpath)
 
-    [System.IO.Compression.ZipFile]::ExtractToDirectory($zipfile, $outpath,true)
+    [System.IO.Compression.ZipFile]::ExtractToDirectory($zipfile, $outpath)
 }
 
 Unzip $Destination $DestinationFolder
