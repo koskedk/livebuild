@@ -1,5 +1,5 @@
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$Url = 'https://github.com/koskedk/dwapi/releases/download/v2.4.6xQA/dwapi.zip'
+$Url = 'https://github.com/koskedk/dwapi/releases/download/v.2.4.62QA/dwapi.zip'
 $Destination= 'H:\DWAPI.Service_1_0_0_0\dwapi.zip'
 $DestinationFolder= 'H:\DWAPI.Service_1_0_0_0\'
 $InstallerApp='C:\Program Files (x86)\Caphyon\Advanced Installer 15.3\bin\x86\advinst.exe'
