@@ -23,6 +23,7 @@ function Unzip
 Unzip $Destination $DestinationFolder
 
 Remove-Item 'H:\DWAPI.Service_1_0_0_0\dwapi.zip' -Force
+Remove-Item $AppExePub -Force
 
 $Prms = $AppProj.Split(" ")
 & "$InstallerApp" $Prms
